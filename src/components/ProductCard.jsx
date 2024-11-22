@@ -36,7 +36,7 @@ const ProductCard = ({ name, lastUpdate, created, qualityScore, status }) => {
     return (
         <div className="border border-christmasBg p-4 rounded-lg mb-4 flex gap-2.5">
             <div className="flex">
-                <input type="checkbox" />
+                <input className="w-3.5" type="checkbox" />
             </div>
 
 

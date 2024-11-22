@@ -7,7 +7,7 @@ const Menus = () => {
     return (
         <div className="grid grid-cols-2 px-3 py-4">
             <div className="flex items-center justify-start">
-                <input type="checkbox" />
+                <input className="w-3.5" type="checkbox" />
             </div>
             <div className="flex tetext-slate-400 gap-2.5">
                 <div className="flex w-max flex-1 items-center justify-start gap-2 py-2 px-3 bg-white rounded-md border-gray border-2">

@@ -26,7 +26,7 @@ function App() {
                       <div className='p-16 border-2 border-5'>
                         <Catalogs />
                       </div>
-                      <div className='m-8 flex flex-wrap gap-2.5'>
+                      <div className='m-8 grid grid-cols-3 phone:grid-cols-1 gap-2.5'>
                         <CreateCatalogCard />
                         <InfoCard title="Christmas 2024" labels={["Sneakers", "boots"]} date="12.27.2024" numberProducts="254" />
                         <InfoCard title="A very big title for a catalog with many thing" labels={["Sneakers", "boots", "Belt", "Socks", "+3"]} date="12.27.2024" numberProducts="254" />

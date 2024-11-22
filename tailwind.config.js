@@ -10,7 +10,7 @@ module.exports = {
     },
     extend: {
       screens: {
-        'phone': {'max': '640px'},
+        'phone': {'max': '960px'},
       },
       padding: {
         '30': '30px',
@@ -23,6 +23,8 @@ module.exports = {
         '30': '30px',
       },
       colors: {
+        'primary': '#463ADD',
+        'secondary': '#FF00FB',
         '1': '#EEF1FF',
         '2': '#F9FAFE',
         '3': '#463ADD',
@@ -46,6 +48,7 @@ module.exports = {
         '4': '#F9F9FB',
         '5': '#F0F0F3',
         '6': '#E0E1E6',
+        '7': '#CDCED6',
         'christmasBg': '#E7E8EC',
       },
       textColor: {
@@ -62,6 +65,7 @@ module.exports = {
       },
       lineHeight: {  // Ajout d'une hauteur de ligne personnalisée
         'mini': '10px',  // Par exemple, une hauteur de ligne de 12px
+        'min': '8px',
       },
 
     },
