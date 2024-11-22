@@ -31,6 +31,7 @@ module.exports = {
         '6': '#E0E1E6',
         'addProduct': '#4C48DA',
         'addProductBg': '#EEF1FF',
+        'gray': "#B9BBC5",
       },
       borderColor: {  // Ajout des couleurs de bordure personnalisées
         '1': '#EEF1FF',
