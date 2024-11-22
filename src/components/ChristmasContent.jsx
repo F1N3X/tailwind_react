@@ -1,10 +1,11 @@
 import React from "react";
 import ChristmasNav from "./christmasNav/ChristmasNav";
 import Menus from "./Menus";
+import ProductCard from "./ProductCard";
 
 const ChristmasContent = () => {
     return (
-        <div>
+        <div className="flex flex-col gap-2.5">
             <div className="flex w-full">
                 <ChristmasNav name="All" number="2" />
                 <ChristmasNav name="To improve" number="245" />
@@ -15,6 +16,11 @@ const ChristmasContent = () => {
             </div>
             <div>
                 <Menus />
+            </div>
+            <div>
+                <ProductCard name={"Trottinette électrique Xiaomi Mi Electric Scooter 3..."} lastUpdate={"18 hours ago"} created={"2 May 2024"} qualityScore={10} status={"To improve"}/>
+                <ProductCard name={"Trottinette électrique Xiaomi Mi Electric Scooter 3..."} lastUpdate={"18 hours ago"} created={"2 May 2024"} qualityScore={90} status={"Error"}/>
+                <ProductCard name={"Trottinette électrique Xiaomi Mi Electric Scooter 3..."} lastUpdate={"18 hours ago"} created={"2 May 2024"} qualityScore={45} status={"In progress"}/>
             </div>
         </div>
     );
