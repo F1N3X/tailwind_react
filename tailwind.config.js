@@ -44,6 +44,13 @@ module.exports = {
       textColor: {
         '1': '#81828C',
       },
+      fontSize: {  // Ajout d'une taille de police personnalisée
+        'mini': '10px',  // Par exemple, une taille de 2rem
+      },
+      lineHeight: {  // Ajout d'une hauteur de ligne personnalisée
+        'mini': '10px',  // Par exemple, une hauteur de ligne de 12px
+      },
+
     },
   },
   plugins: [],

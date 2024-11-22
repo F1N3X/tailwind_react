@@ -5,6 +5,7 @@ import InfoCard from './components/cards/InfoCard';
 import Title from './components/Title';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SecondNav from './components/SecondNav';
+import ChristmasContent from './components/ChristmasContent';
 
 
 function App() {
@@ -37,6 +38,9 @@ function App() {
                   <div>
                     <div className='p-16 border-2 border-5'>
                       <SecondNav />
+                    </div>
+                    <div className='px-4 py-8 flex flex-wrap flex-col'>
+                      <ChristmasContent />
                     </div>
                   </div>
                 } />
