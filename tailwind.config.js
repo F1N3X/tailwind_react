@@ -29,6 +29,8 @@ module.exports = {
         '4': '#F9F9FB',
         '5': '#F0F0F3',
         '6': '#E0E1E6',
+        'addProduct': '#4C48DA',
+        'addProductBg': '#EEF1FF',
       },
       borderColor: {  // Ajout des couleurs de bordure personnalisées
         '1': '#EEF1FF',
@@ -37,6 +39,7 @@ module.exports = {
         '4': '#F9F9FB',
         '5': '#F0F0F3',
         '6': '#E0E1E6',
+        'christmasBg': '#E7E8EC',
       },
       textColor: {
         '1': '#81828C',
